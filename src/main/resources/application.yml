@@ -5,6 +5,11 @@ spring:
 
 spring:
   profiles: dev
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.99.100:3306/security
+    username: root
+    password: password
   jpa:
     show-sql: true
   jackson.serialization.INDENT_OUTPUT: true
